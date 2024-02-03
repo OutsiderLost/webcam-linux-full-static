@@ -26,7 +26,6 @@ cmake --install . # or make install
 (optional: or translation based on existing files)
 # cat custom_ocv*[1-3].tar.gz | tar -xzf - -C /opt
 
-
 === Translation of usable main program ===
 
 export PKG_CONFIG_PATH=/opt/custom_ocv/lib/pkgconfig:$PKG_CONFIG_PATH
@@ -46,7 +45,6 @@ g++ OCVimage.cpp -o OCVimage -I/opt/custom_ocv/include/opencv4 -L/opt/custom_ocv
 chmod +x OCV* && ./OCVimage
 chmod +x cam*.sh && ./camcheck.sh
 
-
 === Opencv python method ===
 
 (note: recommended, stable operation, only requires storage space!)
@@ -61,7 +59,5 @@ cat ocv_py*[1-3].tar.gz | tar -xzf - && rm -rf *-info
 
 (test)
 chmod +x ocv*.py && python3 ocvtest.py
-
-
 
 
