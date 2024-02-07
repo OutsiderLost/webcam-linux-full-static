@@ -54,7 +54,7 @@ python3 -m pip install opencv-python
 python3 -m pip install numpy # recommended
 python3 -m pip install PyQt5 # optional
 
-(optional: or translation based on existing files)
+(optional: or use based on existing modules)
 cat ocv_py*[1-3].tar.gz | tar -xzf - && rm -rf *-info
 
 (test)
